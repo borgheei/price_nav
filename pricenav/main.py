@@ -74,7 +74,7 @@ def mpl_pnav(pnav_data):
     mpl.xticks(rotation=45, ha="right")
 
     for i, v in enumerate(values):
-        mpl.text(i, v + 0.01, f"{v:.2f}", ha='center', fontsize=6)  # با دقت دو رقم اعشار
+        mpl.text(i, v + 0.01, f"{v:.2f}", ha='center', fontsize=6)
 
     mpl.tight_layout()
     mpl.show()
