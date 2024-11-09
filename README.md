@@ -1,5 +1,5 @@
 requirements:
-- pip install python 3.11.2
+- use python 3.11.2
 - pip install matplotlib
 - pip install selenium
 - pip install webdriver-manager
